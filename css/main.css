@@ -1,0 +1,217 @@
+/****************
+ * Custom Fonts	*
+ ****************/
+	@font-face {
+	    font-family:"SangBleu";
+	    src:url("../font/SangBleu/SangBleuBPtestFont_Hairline.otf");
+	}
+	@font-face {
+	    font-family:"SangBleu";
+	    font-weight:600;
+	    src:url("../font/SangBleu/SangBleuBPtestFontSans_Hairline.otf");
+	}
+/****************
+ * 		BODY 	*
+ ****************/
+	html, body {
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    outline: 0;
+	    font-family:"SangBleu", sans-serif, Helvetica, Arial;
+	    font-size: 100%;
+	    vertical-align: baseline;
+	    background:#ffffff;
+	    line-height: 1;
+	    color:#000000;
+	    font-size:15px;
+	    line-height:15px;
+	    text-align:left;
+		width: 100%;
+	    overflow-x: hidden;
+	}
+	
+	html {
+		position: relative;
+		min-height: 100%;
+  }
+  body {
+  /* Margin bottom by footer height */
+	  margin-bottom: 60px;
+}
+	
+	
+	/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.name-footer {
+	width: 45px;
+	display: block;
+	margin-top: 6px;
+	margin-left: -5%;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+	
+	body > .container {
+	  padding: 60px 15px 0;
+	}
+	.container .text-muted {
+	  margin: 20px 0;
+	}
+	
+	.footer > .container {
+	  padding-right: 15px;
+	  padding-left: 15px;
+	}
+	
+	a {
+	    color:#000000;
+	    text-decoration: none;
+	}
+	a:hover {
+	    font-weight: bolder;
+	    font: 900;
+	    text-decoration: none;
+	}
+/*****************
+ *	  STYLES	 *
+ *****************/
+	
+	.main_header {
+	    height: 15px;
+	    text-align: left;
+	    text-transform: uppercase;
+	    letter-spacing: 4px;
+		margin-top: 2%;
+		margin-left: 35px;
+	}
+	
+	.main_dot {
+	    background-image:url(../img/dot_A.png);
+	    background-repeat: no-repeat;
+		width: 38px;
+		height: 22px;
+		margin-top: -70px;
+		margin-left: -32px;
+	}
+
+	.navbar {
+		width: 100%;
+		background-color: #f5f5f5;
+		min-height: 100px !important;
+	}
+	
+	.post-content-A {
+	    background: none repeat scroll 0px 0px #FFF;
+		opacity: 0.9;
+		margin: 1% auto -20px 6%;
+		width: 65%;
+		float: initial;
+		z-index: 1;
+		position: absolute;
+		height: 55px;
+}
+
+
+	.post-content-B {
+	    background: none repeat scroll 0px 0px #FFF;
+		opacity: 0.9;
+		margin: 1% auto -20px 6%;
+		width: 65%;
+		float: initial;
+		z-index: 1;
+		position: absolute;
+		height: 55px;
+}
+
+	.post-content-C{
+	    background: none repeat scroll 0px 0px #FFF;
+		opacity: 0.9;
+		margin: 1% auto -20px 6%;
+		width: 65%;
+		float: initial;
+		z-index: 1;
+		position: absolute;
+		height: 55px;
+}
+	.post-content-D {
+	    background: none repeat scroll 0px 0px #FFF;
+		opacity: 0.9;
+		margin: 1% auto -20px 6%;
+		width: 65%;
+		float: initial;
+		z-index: 1;
+		position: absolute;
+		height: 55px;
+}	
+	/*
+	
+	.footer {
+    	height: 155px;
+		background-color: transparent;
+		background: transparent;
+	    left: 6px;
+	    bottom: 7px; 
+	    width: 45px;
+	    display: block;
+	}
+	*/
+	
+	.menu_1 {
+		position: absolute;
+		margin-top: -26px;
+		margin-left: -290px;
+	}
+	
+	.menu_2 {
+	    margin-left: -115px;
+		position: absolute;
+		margin-top: -27px;
+		width: 200px;
+	}
+	
+	.menu_3 {
+	    margin-left: -264px;
+	 	position: absolute;
+		margin-top: 7px;
+	}
+	
+	.menu_4 {
+	    position: absolute;
+		margin-left: -115px;
+		margin-top: 7px;
+	}
+	
+	.menu_5 {
+	    margin-left: -272px;
+		position: absolute;
+		margin-top: 38px;
+	}
+	
+	.menu_6 {
+	   margin-top: 38px;
+	   margin-left: -115px;
+	   position: absolute;
+	}
+	
+	.dot_menu {
+	    background-image:url(../img/dot_menu.png);
+	    background-repeat: no-repeat;
+	    width: 22px;
+	    height: 82px;
+	    margin-top: -30px;
+	    margin-left: -150px;
+	    position: absolute;
+	}
+	

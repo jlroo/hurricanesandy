@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tableau Workbooks</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.css">
+		<style >
+	        #over {
+			font-family:"SangBleu", sans-serif, Helvetica, Arial;
+		    position: fixed;
+			height: 55px;
+			width: 100%;
+			bottom: 0px;
+			text-align: center;
+			z-index: 10;
+			background-color: #FFF;
+			font-size: 18px;
+			font-weight: 500;
+			line-height: 45px;
+			text-transform: uppercase;
+		}
+		</style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- REVENUE sheet OUT
+				<section id="revenue" data-background-iframe="https://public.tableausoftware.com/views/STOCKS_ANALYSIS_AUTO/Revenue?%3AshowVizHome=no&:embed=y&:tabs=no&:toolbar=yes">
+				</section>
+				-->
+				<section id="price" data-background-iframe="https://public.tableausoftware.com/views/STOCKS_ANALYSIS_AUTO/StocksPrice?%3AshowVizHome=no&:embed=y&:tabs=no&:toolbar=yes">
+				</section>
+				
+				<section id="volume" data-background-iframe="https://public.tableausoftware.com/views/STOCKS_ANALYSIS_AUTO/StocksVol?%3AshowVizHome=no&:embed=y&:tabs=no&:toolbar=yes">
+				</section>
+				
+				<!-- CORRELATION sheet OUT
+				<section id="corr" data-background-iframe="https://public.tableausoftware.com/views/STOCKS_ANALYSIS_AUTO/Correlations?%3AshowVizHome=no&:embed=y&:tabs=no&:toolbar=yes">
+				</section> -->
+			</div>
+			
+			<div id="over">
+			<!-- <a href="#/revenue">Revenue</a> -->
+			 <a href="#/price" style="padding-right:5%">| Stocks Last Price | </a>
+			 <a href="#/volume"style="padding-left:5%"> | Stocks Volume Traded |</a>
+			<!-- <a href="#/corr">Correlation</a> -->
+			</div>
+		</div>
+		<script src="js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				center: true,
+				// Display controls in the bottom right corner
+				controls: false,
+				// Display a presentation progress bar
+				progress: false,
+				transition: 'default',
+				transitionSpeed: 'slow',
+				// backgroundTransition: 'slide'
+			});
+		</script>
+	</body>
+</html>

@@ -171,7 +171,7 @@
 	.menu_1 {
 		position: absolute;
 		margin-top: -26px;
-		margin-left: -290px;
+		margin-left: -312px;
 	}
 	
 	.menu_2 {
@@ -182,8 +182,8 @@
 	}
 	
 	.menu_3 {
-	    margin-left: -264px;
-	 	position: absolute;
+	    margin-left: -272px;
+		position: absolute;
 		margin-top: 7px;
 	}
 	
@@ -194,7 +194,7 @@
 	}
 	
 	.menu_5 {
-	    margin-left: -272px;
+	    margin-left: -268px;
 		position: absolute;
 		margin-top: 38px;
 	}
